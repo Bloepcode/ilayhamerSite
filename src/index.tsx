@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Intro from './screens/Intro';
+import './index.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="bg-gradient-to-r from-pink-400 to-orange-600 w-full flex">
+      <Intro />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
