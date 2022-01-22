@@ -1,5 +1,9 @@
 name: Build website
 
+on:
+  pull_request:
+    branches: [dev]
+
 jobs:
   test_build:
     runs-on: ubuntu-latest
