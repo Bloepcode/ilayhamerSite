@@ -15,7 +15,7 @@ function IntroModal(props: IntroModalProps) {
     >
       <motion.div
         initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0, transition: { delay: 0.5 } }}
+        animate={{ opacity: 1, y: 0, transition: { delay: 0.25 } }}
         exit={{ opacity: 0, y: 20 }}
         transition={{ duration: 0.5 }}
         className="w-1/2 h-4/5 bg-neutral-100 bg-opacity-30 rounded-3xl border-4 border-neutral-100 border-opacity-30 p-10 text-left"

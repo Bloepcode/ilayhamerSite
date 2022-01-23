@@ -17,7 +17,7 @@ function Intro() {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="w-1/2 h-1/2 bg-neutral-100 bg-opacity-40 rounded-3xl border-4 border-neutral-100 border-opacity-30 flex items-center justify-center"
       >
-        <div className="flex items-start flex-col w-full h-full p-24">
+        <div className="flex items-start flex-col w-full h-full p-20 text-clip">
           <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -39,7 +39,7 @@ function Intro() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 0.75, y: 0 }}
             transition={{ duration: 0.5, delay: 1.25 }}
-            className="text-lg text-neutral-50 opacity-75"
+            className="text-lg text-neutral-50 opacity-75 h-full text-clip overflow-hidden"
           >
             Qui ullamco velit et excepteur exercitation nisi eu. Sunt sit aute
             eiusmod velit minim ex commodo in ea quis nulla fugiat magna veniam.
