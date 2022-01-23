@@ -1,8 +1,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    screens: {
-      esm: "440px",
+    extend: {
+      screens: {
+        esm: "440px",
+      },
     },
   },
   plugins: [],
