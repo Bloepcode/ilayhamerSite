@@ -29,7 +29,7 @@ function IntroModal(props: IntroModalProps) {
               Sluit
             </button>
           </div>
-          <div className="overflow-y-scroll h-full w-full">
+          <div className="overflow-y-auto h-full w-full">
             <p className="text-lg text-neutral-800 opacity-75">
               Est pariatur irure in cillum. Pariatur ipsum ad adipisicing aute
               cupidatat. Ut fugiat nostrud consequat duis cillum ullamco. Aute
