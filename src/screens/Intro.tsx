@@ -15,16 +15,16 @@ function Intro() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.5 }}
-        className="w-1/2 h-1/2 bg-neutral-100 bg-opacity-40 rounded-3xl border-4 border-neutral-100 border-opacity-30 flex items-center justify-center"
+        className="w-full h-4/5 md:w-4/5 md:h-4/5 lg:w-1/2 lg:h-fit bg-neutral-100 bg-opacity-40 rounded-3xl border-4 border-neutral-100 border-opacity-30 flex items-center justify-center"
       >
-        <div className="flex items-start flex-col w-full h-full p-24">
+        <div className="flex items-start flex-col w-full h-full p-10 md:p-20 text-clip">
           <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.75 }}
             className="text-4xl text-neutral-50"
           >
-            Hallo, ik ben Ilay Hamer,
+            Hallo, ik ben Ilay Hamer.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: -20 }}
@@ -32,14 +32,14 @@ function Intro() {
             transition={{ duration: 0.5, delay: 1 }}
             className="text-lg text-neutral-50 opacity-90"
           >
-            een 14-jarige programmeur uit nederland!
+            Een 14-jarige programmeur uit nederland!
           </motion.p>
           <div className="h-2"></div>
           <motion.p
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 0.75, y: 0 }}
             transition={{ duration: 0.5, delay: 1.25 }}
-            className="text-lg text-neutral-50 opacity-75"
+            className="text-lg text-neutral-50 opacity-75 h-full text-clip overflow-hidden"
           >
             Qui ullamco velit et excepteur exercitation nisi eu. Sunt sit aute
             eiusmod velit minim ex commodo in ea quis nulla fugiat magna veniam.
@@ -52,7 +52,7 @@ function Intro() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1.5 }}
-            className="flex"
+            className="flex flex-col esm:flex-row items-center w-full"
           >
             <ButtonPrimary onClick={() => {}}>Contact!</ButtonPrimary>
             <ButtonSecondary onClick={showPopup}>
