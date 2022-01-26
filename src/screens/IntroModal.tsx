@@ -11,7 +11,7 @@ function IntroModal(props: IntroModalProps) {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
       transition={{ duration: 0.5 }}
-      className="bg-neutral-100 bg-opacity-50 backdrop-blur-2xl absolute top-0 left-0 w-full h-screen flex items-center justify-center"
+      className="bg-neutral-700 bg-opacity-25 backdrop-blur-2xl absolute top-0 left-0 w-full h-screen flex items-center justify-center"
     >
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -29,7 +29,7 @@ function IntroModal(props: IntroModalProps) {
               Sluit
             </button>
           </div>
-          <div className="overflow-y-scroll h-full w-full">
+          <div className="overflow-y-auto h-full w-full">
             <p className="text-lg text-neutral-800 opacity-75">
               Est pariatur irure in cillum. Pariatur ipsum ad adipisicing aute
               cupidatat. Ut fugiat nostrud consequat duis cillum ullamco. Aute

@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import reportWebVitals from './reportWebVitals';
-import Intro from './screens/Intro';
-import './index.css';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import reportWebVitals from "./reportWebVitals";
+import Intro from "./screens/Intro";
+import "./index.css";
+import Whats from "./screens/Whats";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="bg-gradient-to-r from-pink-400 to-orange-600 w-full flex">
+    <div className="bg-gradient-to-r from-pink-400 to-orange-600 w-full">
       <Intro />
+      <Whats />
     </div>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
