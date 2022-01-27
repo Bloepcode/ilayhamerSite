@@ -20,7 +20,7 @@ function IntroModal(props: IntroModalProps) {
         transition={{ duration: 0.5 }}
         className="w-full h-full lg:w-1/2 lg:h-4/5 bg-neutral-100 bg-opacity-30 rounded-3xl border-4 border-neutral-100 border-opacity-30 p-10 text-left"
       >
-        <div className="h-full">
+        <div className="h-full pb-4">
           <div className="flex justify-end m-4">
             <button
               onClick={props.onHide}
